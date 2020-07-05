@@ -120,7 +120,7 @@ srsly==1.0.2
 streamlit==0.62.1
 TBB==0.1
 tensorboard==1.13.1
-tensorflow==1.13.1
+tensorflow==1.15.2
 tensorflow-estimator==1.13.0
 termcolor==1.1.0
 terminado==0.8.3
