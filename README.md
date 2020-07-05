@@ -23,8 +23,8 @@ There were 3 datasets that I tried to use.
 
 ## Challenges
 Both the IMDb and Wiki datasets were very messy and some images were incorrectly labelled or broken. 
-Moreoever, the faces in the images were not aligned or cropped as good as the UTKFace dataset. This made incorporating the images difficult and raises the question:
-Is more data better, even in the case that it can be incorrectly labelled or unstructured?
+Moreoever, the faces in the images were not aligned or cropped as good as the UTKFace dataset.<br> This made incorporating the images difficult and raises the question:<br>
+Is more data better, even in the case that it can be incorrectly labelled or unstructured?<br>
 Due to this problem, I attempted 3 versions of the CNN.
 1. Only using the UTKFace dataset but manually deleteed images that were incorrectly labelled (which wasn't much). The number of images used were ~19,000
 2. Incorporating some IMDb and Wiki images but manually adding the images that seem correctly labelled and not broken.
