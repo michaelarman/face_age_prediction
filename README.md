@@ -5,7 +5,7 @@ All required packages can be found [here](https://github.com/michaelarman/face_a
 
 ## Project Motivation
 In this project, I wanted to use Convulutional Neural Networks (CNNs) to classify the age using face images. The easiest and fastest implementation of the CNN was through using FastAI. 
-I leveraged transfer learning to train my model faster. I also performed data augmentations/transformations of the images to obtain a better generalization.
+I leveraged transfer learning to train my model faster. I also performed data augmentations/transformations of the images to obtain a better generalization.<br>
 I formed 14 age brackets as the outputs:<br>
 0-4, 5-9, 10-14, 15-19, 20-24, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, and 65+ <br>
 After training the models, I wanted to create a webapp using streamlit so people can try it out by using test images or upload images of their own.
