@@ -41,4 +41,8 @@ This can be seen in the webapp.
 Data Transforms were the standard transforms that FastAI's `get_transform` uses and also random_resize_crop since not all of the images were properly cropped or aligned.
 The pretrained model that was used to train on was mobilenet_v2's architecture
 
+## Next Steps
 
+There are a few options to improve this model. 
+- Obviously cleaning the data is an option but it isn't very realistic, however maybe it is possible to use different applications of computer vision to help us generate similar data of the same classes by using GANs. 
+- Another option is to keep the first model with our cleaned data and use opencv face cascade to crop the images that we put into our webapp 
