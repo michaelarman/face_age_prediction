@@ -12,7 +12,7 @@ After training the models, I wanted to create a webapp using streamlit so people
 
 ## [Webapp]()
 ### Instructions for Running Locally 
-Open the [faceapp folder](https://github.com/michaelarman/face_age_prediction/tree/master/face_age_webapp) and in your python terminal run:
+Open the [faceapp folder](https://github.com/michaelarman/face_age_prediction/tree/master/face_age_webapp) and in your python terminal go to the path and run:
 `streamlit run run.py`
 
 ## Datasets
