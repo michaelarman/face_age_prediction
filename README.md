@@ -37,7 +37,7 @@ The pretrained model that was used to train on was resnet50's architecture
 This model performs well for predicting face images that are cropped and aligned perfectly. 
 Although it attained a great accuracy score with this data, it is not very good at predicting new images that aren't structured perfectly. 
 This can be seen in the webapp.
-2. Approach v2 did not perform as well. It achieved a 
+2. Approach v2 did not perform as well. It achieved a 48% accuracy score. However, this is due to the data being incorrectly labelled because if we look at out top losses it shows us that the model gave a very good guess and the actual class was false.
 Data Transforms were the standard transforms that FastAI's `get_transform` uses and also random_resize_crop since not all of the images were properly cropped or aligned.
 The pretrained model that was used to train on was mobilenet_v2's architecture
 
