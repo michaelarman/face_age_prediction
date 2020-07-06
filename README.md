@@ -15,6 +15,9 @@ After training the models, I wanted to create a webapp using streamlit so people
 Open the [faceapp folder](https://github.com/michaelarman/face_age_prediction/tree/master/face_age_webapp) and in your python terminal go to the path and run:
 `streamlit run run.py`
 
+#### https://age-classifier.herokuapp.com/
+The webapp is deployed on heroku at the above link. It may take a while to start.
+
 ## Datasets
 There were 3 datasets that I tried to use.
 - [UTKFace](https://www.kaggle.com/jangedoo/utkface-new?) - This was the cleanest of the datasets. In some of the ages, there were some errors but was the most structured. ~30,000 images
