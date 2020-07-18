@@ -10,10 +10,13 @@ I formed 14 age brackets as the outputs:<br>
 0-4, 5-9, 10-14, 15-19, 20-24, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, and 65+ <br>
 After training the models, I wanted to create a webapp using streamlit so people can try it out by using test images or upload images of their own.
 
-## [Webapp]()
+## [Webapp](https://age-classifier.herokuapp.com/)
 ### Instructions for Running Locally 
 Open the [faceapp folder](https://github.com/michaelarman/face_age_prediction/tree/master/face_age_webapp) and in your python terminal go to the path and run:
 `streamlit run run.py`
+
+#### https://age-classifier.herokuapp.com/
+The webapp is deployed on heroku at the above link. It may take a while to start.
 
 ## Datasets
 There were 3 datasets that I tried to use.
@@ -42,8 +45,13 @@ That being said, it still performed a lot better on test images, especially if t
 Data Transforms were the standard transforms that FastAI's `get_transform` uses and also random_resize_crop since not all of the images were properly cropped or aligned.
 The pretrained model that was used to train on was mobilenet_v2's architecture
 
+## Demo 
+Below is a demo of the webapp using a picture of myself at age 23 (without a beard I do look younger). Here we see the two predictions of approach 1 and approach 2 respectively. Since the image isn't a 200,200 image and isn't perfectly cropped, the first model was not close. The second model was much closer and I could pass as a 25-29 year old in that picture.
+![](https://github.com/michaelarman/face_age_prediction/blob/master/demo.PNG)
+
 ## Next Steps
 
 There are a few options to improve this model. 
 - Obviously cleaning the data is an option but it isn't very realistic, however maybe it is possible to use different applications of computer vision to help us generate similar data of the same classes by using GANs. 
 - Another option is to keep the first model with our cleaned data and use opencv face cascade to crop the images that we put into our webapp 
+- Also there wasn't much hyperparameter tuning or feature engineering done. These are also things that can improve the model
