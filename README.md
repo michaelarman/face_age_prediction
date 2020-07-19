@@ -46,7 +46,7 @@ Data Transforms were the standard transforms that FastAI's `get_transform` uses 
 The pretrained model that was used to train on was mobilenet_v2's architecture
 
 ## Demo 
-Below is a demo of the webapp using a picture of myself at age 23 (without a beard I do look younger). Here we see the two predictions of approach 1 and approach 2 respectively. Since the image isn't a 200,200 image and isn't perfectly cropped, the first model was not close. The second model was much closer and I could pass as a 25-29 year old in that picture.
+Below is a demo of the webapp using a picture of myself at age 23 (without a beard I do look younger). Here we see the two predictions of approach 1 and approach 2 respectively. Both models predicted age ranges next to the actual age bracket that I belonged to.
 ![](https://github.com/michaelarman/face_age_prediction/blob/master/demo.PNG)
 
 ## Next Steps
