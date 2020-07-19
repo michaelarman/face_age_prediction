@@ -50,7 +50,7 @@ def predict(img, display_img):
             time.sleep(3)
     
         # Load model and make prediction
-        model = load_learner('models/', 'improved_model.pkl')
+        model = load_learner('models/', 'export.pkl')
         pred_class = model.predict(img)[0] # get the predicted class
         pred_prob = round(torch.max(model.predict(img)[2]).item()*100) # get the max probability
             
