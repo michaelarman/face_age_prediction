@@ -86,7 +86,7 @@ pandocfilters==1.4.2
 parso==0.7.0
 pathtools==0.1.2
 pickleshare==0.7.5
-Pillow==7.1.2
+Pillow==8.1.1
 plac==0.9.6
 preshed==3.0.2
 prometheus-client==0.8.0
