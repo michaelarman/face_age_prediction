@@ -42,7 +42,7 @@ ipython @ file:///C:/ci/ipython_1593433781269/work
 ipython-genutils==0.2.0
 ipywidgets==7.5.1
 jedi @ file:///C:/ci/jedi_1592833832328/work
-Jinja2==2.11.2
+Jinja2==2.11.3
 jmespath==0.10.0
 joblib==0.16.0
 jsonschema==3.2.0
@@ -86,7 +86,7 @@ pandocfilters==1.4.2
 parso==0.7.0
 pathtools==0.1.2
 pickleshare==0.7.5
-Pillow==7.1.2
+Pillow==8.1.1
 plac==0.9.6
 preshed==3.0.2
 prometheus-client==0.8.0
@@ -94,7 +94,7 @@ prompt-toolkit==3.0.5
 protobuf==3.12.3
 pycparser==2.20
 pydeck==0.4.0b2
-Pygments==2.6.1
+Pygments==2.7.4
 pyOpenSSL==19.1.0
 pyparsing==2.4.7
 pyreadline==2.1
@@ -104,7 +104,7 @@ python-dateutil==2.8.1
 pytz==2020.1
 pywin32==227
 pywinpty==0.5.7
-PyYAML==5.3.1
+PyYAML==5.4
 pyzmq==19.0.1
 qtconsole @ file:///tmp/build/80754af9/qtconsole_1592848611704/work
 QtPy==1.9.0
