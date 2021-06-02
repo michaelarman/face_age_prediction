@@ -136,7 +136,7 @@ traitlets==4.3.3
 typing==3.7.4.1
 tzlocal==2.1
 ujson @ file:///C:/ci/ujson_1592432585163/work
-urllib3==1.25.9
+urllib3==1.26.5
 validators==0.15.0
 wasabi==0.7.0
 watchdog==0.10.3
