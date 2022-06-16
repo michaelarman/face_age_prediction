@@ -73,7 +73,7 @@ nb-conda==2.2.1
 nb-conda-kernels==2.2.3
 nbconvert==5.6.1
 nbformat==5.0.7
-notebook==6.4.1
+notebook==6.4.12
 numexpr==2.6.8
 numm==0.3
 numpy==1.19.0
