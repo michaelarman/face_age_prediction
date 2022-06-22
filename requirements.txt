@@ -76,7 +76,7 @@ nbformat==5.0.7
 notebook==6.4.1
 numexpr==2.6.8
 numm==0.3
-numpy==1.19.0
+numpy==1.22.0
 nvidia-ml-py3==7.352.0
 olefile==0.46
 opencv-python==4.2.0.34
