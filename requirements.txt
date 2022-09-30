@@ -44,7 +44,7 @@ ipywidgets==7.5.1
 jedi @ file:///C:/ci/jedi_1592833832328/work
 Jinja2==2.11.3
 jmespath==0.10.0
-joblib==0.16.0
+joblib==1.2.0
 jsonschema==3.2.0
 jupyter==1.0.0
 jupyter-client==6.1.3
