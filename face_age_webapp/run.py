@@ -11,7 +11,6 @@ from io import BytesIO
 import cv2
 
 st.title("Age Predictor!")
-st.write(os.getcwd())
 # extract pre-trained face detector
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + '/haarcascade_frontalface_default.xml')
 
