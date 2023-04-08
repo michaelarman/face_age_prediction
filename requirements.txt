@@ -1,9 +1,7 @@
 altair==4.1.0
 fastai==1.0.61
 fastprogress==0.2.2
-numpy
 opencv-contrib-python-headless
-pandas
 Pillow==8.3.2
 scikit-learn
 scipy
@@ -11,3 +9,5 @@ spacy
 streamlit
 torch==1.12.1
 torchvision
+pandas
+numpy
