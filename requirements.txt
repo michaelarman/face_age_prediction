@@ -2,7 +2,7 @@ altair==4.1.0
 fastai==1.0.61
 fastprogress==0.2.2
 numpy
-opencv-python
+opencv-contrib-python-headless
 pandas
 Pillow==8.3.2
 scikit-learn
