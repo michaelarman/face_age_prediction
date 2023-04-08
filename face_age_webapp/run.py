@@ -11,7 +11,7 @@ from io import BytesIO
 import cv2
 
 st.title("Age Predictor!")
-print(os.getcwd())
+st.write(os.getcwd())
 # extract pre-trained face detector
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + '/haarcascade_frontalface_default.xml')
 
@@ -50,7 +50,7 @@ def predict(img, display_img):
             time.sleep(3)
     
         # Load model and make prediction
-        model = load_learner('../models/', 'export.pkl')
+        model = load_learner('face_age_webapp/models/', 'export.pkl')
         pred_class = model.predict(img)[0] # get the predicted class
         pred_prob = round(torch.max(model.predict(img)[2]).item()*100) # get the max probability
             
@@ -91,7 +91,7 @@ def predict_v2(img):
             time.sleep(3)
     
         # Load model and make prediction
-        model = load_learner('models/', 'export_v2.pkl')
+        model = load_learner('face_age_webapp/models/', 'export_v2.pkl')
         pred_class = model.predict(img)[0] # get the predicted class
         pred_prob = round(torch.max(model.predict(img)[2]).item()*100) # get the max probability
             
@@ -131,12 +131,12 @@ uploaded_file = st.file_uploader("Choose an image")
 if option == 'Choose a test image':
             
     # Test image selection
-    test_images = os.listdir('../test_images/')
+    test_images = os.listdir('face_age_webapp/test_images/')
     test_image = st.selectbox(
     'Please select a test image:', test_images)
 
     # Read the image
-    file_path = 'test_images/' + test_image
+    file_path = 'face_age_webapp/test_images/' + test_image
     #   image = open_image(file_path)
     if detect_crop_face(file_path) is not None:
         img = detect_crop_face(file_path)
