@@ -9,5 +9,5 @@ scikit-learn
 scipy
 spacy
 streamlit
-torch==1.5.1
-torchvision==0.6.1
+torch==1.12.0
+torchvision
