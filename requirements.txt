@@ -1,8 +1,7 @@
-altair==4.1.0
-fastai==1.0.61
-fastprogress==0.2.2
+fastai
+fastprogress
 opencv-contrib-python-headless
-Pillow==8.3.2
+Pillow
 scikit-learn
 scipy
 spacy
