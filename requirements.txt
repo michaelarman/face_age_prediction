@@ -7,6 +7,6 @@ scipy
 spacy
 streamlit
 torch==1.12.1
-torchvision
+torchvision==0.13.0
 pandas
 numpy
